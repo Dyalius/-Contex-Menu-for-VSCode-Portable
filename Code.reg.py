@@ -80,7 +80,7 @@ directory_path = r"SOFTWARE\Classes\Directory\shell\VSCode"
 directory_def_value = Context_Value
 directory_icon_value = Code_exe_Path
 
-directory_path_command = shell_path+r"\command"
+directory_path_command = directory_path+r"\command"
 directory_command_def = r'"'+Code_exe_Path+r'" "%V"'
 
 
@@ -90,7 +90,7 @@ background_path = r"SOFTWARE\Classes\Directory\background\shell\VSCode"
 background_def_value = Context_Value
 background_icon_value = Code_exe_Path
 
-background_path_command = shell_path+r"\command"
+background_path_command = background_path+r"\command"
 background_command_def = r'"'+Code_exe_Path+r'" "%V"'
 
 #drive variables
@@ -99,7 +99,7 @@ drive_path = r"SOFTWARE\Classes\Drive\shell\VSCode"
 drive_def_value = Context_Value
 drive_icon_value = Code_exe_Path
 
-drive_path_command = shell_path+r"\command"
+drive_path_command = drive_path+r"\command"
 drive_command_def = r'"'+Code_exe_Path+r'" "%V"'
 
 
